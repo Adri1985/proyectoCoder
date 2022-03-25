@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<!--Especifica que es html */ -->
+<html lang="en">
+<!--/*lenguaje*/-->
+
+<head>
+    <!--inserto el css-->
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    <!--cabecera o datos importantes del sitio que no se veran el el navegador-->
+    <meta charset="UTF-8">
+    <!--etiqueta charset UTF 8. Sirve para que los caracteres especiales como ñ u otras cosas raras se visualice correctamente-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- es para que sea compatible en edge y explorer-->
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- esto nos va a permitir la avadaptacion a los dispositivos moviles-->
+    <title>ELECTRIC HQ</title>
+</head>
+
+<body class="body">
+    <!-- es el cuerpo de nuestro sitio, todo tiene que estar comprendido en el body-->
+    <header class="header">
+        <ul>
+            <li><a href="../pages/products.html">Products</a></li>
+            <li><a href="../pages/community.html">Comunity</a></li>
+            <li><a href="../pages/prototypes.html">Prototypes</a></li>
+            <li><a href="../pages/team.html">Team</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+           <!-- <div class="prueba">
+                <a href="index.html"><img src="images/logo.png" alt=""></a>
+            </div>-->
+        </ul> 
+    </header>
+    <main class="main">
+
+        <div class="titulo">
+
+        <a href="../index.html"><img id="logo" src="../images/logo.png" alt=""></a>
+        <h1>PRODUCTS</h1>
+       
+
+        </div>
+        <section class="mainSection">
+          
+            <form class="form" action="">
+                <ul>
+                    <li>
+                        <label for="type">Vehicle type </label>
+                        <select name="type" id="type" >
+                            <option value="sco">Electric Scooters</option>
+                            <option value="ska">Electric Skateboards</option>
+                            <option value="ska">Electric Surfboards</option>
+                            <option value="ska">Electric Bikes</option>
+                            <option value="ska">One Wheel (new!)</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="ship">Ship To: </label>
+                        <select name="ship" id="">
+                            <option value="arg">Argentina</option>
+                            <option value="chi">Chile</option>
+                            <option value="bra">Brazil</option>
+                            <option value="usa">United States</option>
+                        </select>
+                    </li>
+    
+                    <!-- RADIO -- ELEGIR SOLO UNA OPCION-->
+                    <li>
+                        <label for="condition">Condition:</label>
+                    </li>
+                    <li>
+                        <input type="radio" value="new" name="new">New
+                        <input type="radio" value="pre" name="preowned">Pre-Owned
+                    </li>
+                    <li>
+                        <input type="text" id="" placeholder="min price">
+                        <input type="text" id="" placeholder="min price">
+                    <li>
+    
+                    </li>
+                    <input type="text" id="" placeholder="min range">
+                    <input type="text" id="" placeholder="max range">
+                    </li>
+                    </li>
+                    <input type="submit" value="Search">
+                    </li>
+                </ul>
+            </form>
+        </section>
+        <div class="products">
+            <div class="product">
+                <img src="../images/product1.png" alt="">
+                <ul>
+                    <li>Evolve Hadean Carbon 2 in 1</li>
+                    <li>Top Features Include:</li>
+                    <ul>
+                        <li>
+                            AT and Sreet wheels
+                        </li>
+                        <li>
+                            30mph top speed
+                        </li>
+                        <li>
+                            35% hill climbing ability
+                        </li>
+                        <li>
+                            Dual 3000W motors
+                        </li>
+                    </ul>
+
+                </ul>
+            </div>
+            <div class="product">
+                <img src="../images/product2.png" alt="">
+                <ul>
+                    <li>Meepo V4 Shuffle</li>
+                    <li>Top Features Include:</li>
+                    <ul>
+                        <li>
+                            Dual 620W motors
+                        </li>
+                        <li>
+                            Weight 16 lbs
+                        </li>
+                        <li>
+                            New M4S remote
+                        </li>
+                        <li>
+                            28 mph top speed
+                        </li>
+                    </ul>
+
+                </ul>
+            </div>
+            <div class="product">
+                <img src="../images/product3.png" alt="">
+                <ul>
+                    <li>New Meepo Mini 2 Standard</li>
+                    <li>Top Features Include:</li>
+                    <ul>
+                        <li>
+                            29 mph top speed
+                        </li>
+                        <li>
+                            versatile deck
+                        </li>
+                        <li>
+                            18 miles range
+                        </li>
+                        <li>
+                            requires riding experience
+                        </li>
+                    </ul>
+
+                </ul>
+            </div>
+            <div class="product">
+                <img src="../images/product4.png" alt="">
+                <ul>
+                    <li>Eunorau FAT-HS 1000</li>
+                    <li>Top Features Include:</li>
+                    <ul>
+                        <li>
+                            Shimano Deore 9-speed shifter
+                        </li>
+                        <li>
+                            1000W Bafang motor
+                        </li>
+                        <li>
+                            40-mile range
+                        </li>
+                        <li>
+                            Full suspension & shock absorber
+                        </li>
+                    </ul>
+
+                </ul>
+            </div>
+            <div class="product">
+                <img src="../images/product5.png" alt="">
+                <ul>
+                    <li>Jupiter Defiant</li>
+                    <li>Top Features Include:</li>
+                    <ul>
+                        <li>
+                            300 lbs payload capacity
+                        </li>
+                        <li>
+                            Front & rear disc brakes
+                        </li>
+                        <li>
+                            40-mile range
+                        </li>
+                        <li>
+                            750W brushless hub motor
+                        </li>
+                    </ul>
+
+                </ul>
+            </div>
+            <div class="product">
+                <img src="../images/product6.png" alt="">
+                <ul>
+                    <li>Rambo Bushwacker</li>
+                    <li>Top Features Include:</li>
+                    <ul>
+                        <li>
+                            Rambo Custom built chain rim
+                        </li>
+                        <li>
+                            Digital on-board display
+                        </li>
+                        <li>
+                            Tektro hydraulic piston brakes
+                        </li>
+                        <li>
+                            300 lbs weight capacity
+                        </li>
+                    </ul>
+
+                </ul>
+            </div>
+            <div class="product">
+                <img src="../images/product7.png" alt="">
+                <ul>
+                    <li>Yamaha RDS300 Seascooter</li>
+                    <li>Top Features Include:</li>
+                    <ul>
+                        <li>
+                            Run up to 1.5 hours with normal use 
+                        </li>
+                        <li>
+                            Rated to 100ft / 30m
+                        </li>
+                        <li>
+                            Speed up to 3 mph / 4.8 km/h
+                        </li>
+                        <li>
+                            Waterproof construction 
+                        </li>
+                    </ul>
+
+                </ul>
+              
+            </div>
+            <div class="product">
+                <img src="../images/product8.png" alt="">
+                <ul>
+                    <li>Radinn Carve Electric Surfboard</li>
+                    <li>Top Features Include:</li>
+                    <ul>
+                        <li>
+                            Jetpack G3 
+                        </li>
+                        <li>
+                            Top Speed: Up to 26 mph 
+                        </li>
+                        <li>
+                            (Standard) Acceleration: 0-25 in 9.7s
+                        </li>
+                        <li>
+                            Board Weight: 20 lbs 
+                        </li>
+                    </ul>
+
+                </ul>
+            </div>
+            
+        </div>
+        <div class="bestSellers">
+        
+            <h1>BEST SELLERS</h1>
+            <div class="bestImages">
+                <img src="../images/bestskate.png" alt="">
+                <img src="../images/bestbike.png" alt="">
+                <img src="../images/bestscooter.png" alt="">
+                <img src="../images/bestdeliverybike.png" alt="">
+            </div>
+        </div>
+
+        
+    </main>
+    <footer class="footer">
+            <ul>
+                <li>COPYRIGHT</li>
+                <li>INVEST</li>
+                <li>PRIVACY POLICY</li>
+                <li>TERMS AND CONDITIONS</li>           
+             </ul>
+        <div class ="footer__platforms">
+            <img src="../images/instagram.png" alt="" width="50" height="50">
+            <img src="../images/facebook.png" alt="" width="50" height="50">
+            <img src="../images/youtube.png" alt="" width="50" height="50">
+        </div>
+    </footer>
+</body>
+
+</html>
+
